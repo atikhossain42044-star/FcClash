@@ -2257,6 +2257,4 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
-git add
-git commit -m"Firebase connection added"
-git push origin main
+
