@@ -2235,3 +2235,28 @@ url:e,reason:"blocked_domain_not_allowlisted"},b.parentOrigin);throw new DOMExce
     </script>
 
 <iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" tabindex="-1" vspace="0" width="100%" aria-hidden="true" id="I0_1779706345576" name="I0_1779706345576" src="https://bard-frontend.firebaseapp.com/__/auth/iframe?apiKey=AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY&amp;appName=%5BDEFAULT%5D&amp;v=11.6.1&amp;eid=p&amp;usegapi=1&amp;jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.ch0Jz-JlMrQ.O%2Fd%3D1%2Frs%3DAHpOoo_YD4KoV8fTh_kLhktsiThAm3yJ5A%2Fm%3D__features__#id=I0_1779706345576&amp;_gfid=I0_1779706345576&amp;parent=blob%3A%2F%2F&amp;pfname=&amp;rpctoken=25262660" style="position: absolute; top: -100px; width: 1px; height: 1px;"></iframe></body></html>
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBBPoHCXUX9D3lnwzESgdNW2XqZP9aRNZU",
+  authDomain: "fc-elite-clash.firebaseapp.com",
+  databaseURL: "https://fc-elite-clash-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "fc-elite-clash",
+  storageBucket: "fc-elite-clash.firebasestorage.app",
+  messagingSenderId: "712557131555",
+  appId: "1:712557131555:web:26229cae1fb30b8f3b3e96",
+  measurementId: "G-8CZD15P4D8"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+git add
+git commit -m"Firebase connection added"
+git push origin main
