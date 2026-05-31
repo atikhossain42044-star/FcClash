@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en"><head><script src="https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.ch0Jz-JlMrQ.O/m=gapi_iframes/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_YD4KoV8fTh_kLhktsiThAm3yJ5A/cb=gapi.loaded_0?le=scs" async=""></script><script>(function(firebaseConfig, initialAuthToken, appId) {
         window.__firebase_config = firebaseConfig;
@@ -2258,3 +2259,4 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
+https://fc-elite-clash-default-rtdb.asia-southeast1.firebasedatabase.app/
